@@ -5,6 +5,12 @@ body{
     margin-right: auto;
 }
 
+#calcContainer{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .gradeInput {
     width: 25px;
 }
