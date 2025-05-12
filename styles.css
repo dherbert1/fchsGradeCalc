@@ -10,11 +10,11 @@ body{
 }
 
 #calcContainer{
-    border: black, 2px, solid;
-    border-radius: 15%;
+    border: rgb(0, 0, 121), 3px, solid;
+    border-radius: 15px;
     background-color: rgb(234, 234, 234);
     width: 400px;
-    height: 400px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,7 +24,7 @@ body{
     height: 15px;
     margin-top: 10px;
     margin-bottom: 5px;
-    border: green, 2px, inset;
+    border: rgb(150, 150, 150), 2px, inset;
     border-radius: 2px;
 }
 
