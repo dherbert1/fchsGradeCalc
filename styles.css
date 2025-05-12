@@ -22,7 +22,8 @@ body{
     width: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
-    border: blue, 1px, inset;
+    border: gray, 2px, inset;
+    border-radius: 2px;
 }
 
 #warning{
