@@ -11,9 +11,12 @@
     <p>FCHS uses a 45%-45%-10% grading scale. Type in your grade and this calculator can help you determine what you need in order to get to your goal.</p>
     <div id="calcContainer">
         <div id="inputs">
-            <input id="Q1Grade" type="number"/>
-            <input id="Q2Grade" type="number"/>
-            <input id="ExamGrade" type="number"/>
+            <div><lable>Semester 1 Grade:</lable><input id="Q1Grade" type="number"/></div>
+            <div><lable>Semester 2 Grade:</lable><input id="Q2Grade" type="number"/></div>
+           <div><lable>Estimated Final Exam Grade:</lable><input id="ExamGrade" type="number"/></div>
+        </div>
+        <div id="output">
+            <h2>Semester Grade: <span id="finalGrade">100</span>%</h2>
         </div>
     </div>
 </body>
