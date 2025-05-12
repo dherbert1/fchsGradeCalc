@@ -14,3 +14,7 @@ body{
 .gradeInput {
     width: 50px;
 }
+
+#warning{
+    display: hidden;
+}
