@@ -26,5 +26,5 @@ body{
 }
 
 #warning{
-    visibility: hidden;
+    display: none;
 }
