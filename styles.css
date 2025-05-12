@@ -40,3 +40,7 @@ body{
     background-color: tomato;
     margin: 20 20;
 }
+
+#calculate{
+    padding: 10px;
+}
