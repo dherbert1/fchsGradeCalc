@@ -27,6 +27,10 @@ body{
     border-radius: 2px;
 }
 
+#output{
+    margin-top: 30px;;
+}
+
 #warning{
     display: none;
     max-width: 80%;
