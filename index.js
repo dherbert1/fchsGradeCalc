@@ -10,7 +10,7 @@ calculateBtn.addEventListener("click", calculate);
 function calculate() {
     if(Q1.value > 110 || Q2.value > 110 || E.value > 110){
         warning.style.display = 'block';
-        warning.style.height = '20px';
+        warning.style.height = 'auto';
     }
     else{
         warning.style.display = 'none';
