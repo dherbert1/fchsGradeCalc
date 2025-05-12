@@ -8,5 +8,5 @@ calculateBtn.addEventListener("click", calculate);
 
 function calculate() {
     const result = (Q1.value * 0.45) + (Q2.value * 0.45) + (E.value * 0.1);
-    S.textContent = result;
+    S.textContent = `${result}`;
 }
