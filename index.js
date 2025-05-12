@@ -8,7 +8,7 @@ const warning = document.getElementById("warning");
 calculateBtn.addEventListener("click", calculate);
 
 function calculate() {
-    if(Q1.value > 100 || Q2.value > 100 || E.value > 100){
+    if(Q1.value > 110 || Q2.value > 110 || E.value > 110){
         warning.style.display = 'block';
         warning.style.height = '20px';
     }
