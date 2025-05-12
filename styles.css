@@ -9,6 +9,8 @@ body{
 }
 
 #calcContainer{
+    border: black, 2px, solid;
+    border-radius: 15%;
     background-color: rgb(234, 234, 234);
     width: 75%;
     margin-left: auto;
