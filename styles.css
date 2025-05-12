@@ -28,6 +28,7 @@ body{
 
 #warning{
     display: none;
+    max-width: 80%;
     border: black 5px solid;
     border-radius: 10px;
     background-color: tomato;
