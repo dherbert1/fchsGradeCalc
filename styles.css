@@ -20,9 +20,10 @@ body{
 
 .gradeInput {
     width: 50px;
+    height: 15px;
     margin-top: 10px;
     margin-bottom: 5px;
-    border: gray, 2px, inset;
+    border: green, 2px, inset;
     border-radius: 2px;
 }
 
