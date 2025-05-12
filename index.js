@@ -12,7 +12,7 @@ function calculate() {
         warning.setAttribute('display', 'block');
     }
     else{
-        warning.setAttribute('display', 'hidden');
+        warning.setAttribute('display', 'none');
         const result = Math.round((Q1.value * 0.45) + (Q2.value * 0.45) + (E.value * 0.1));
         S.textContent = `${result}`;
     }
