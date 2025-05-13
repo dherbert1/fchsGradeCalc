@@ -63,3 +63,6 @@ body{
     max-width: 400px;
 }
 
+#inputs{
+    display: flex;
+}
