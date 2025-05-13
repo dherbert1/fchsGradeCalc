@@ -23,7 +23,7 @@ function calculate() {
     }
 
     if(Math.round((Q1.value * 0.45) + (Q2.value * 0.45) <= 60)){
-        const scoreAtLeast = (60-(Q1.value * 0.45) + (Q2.value * 0.45))/.10;
+        const scoreAtLeast = (60-(Q1.value * 0.45) - (Q2.value * 0.45))/.10;
         danger.style.display = 'block';
         danger.style.height = 'auto';
         sAL.textContent = `${scoreAtLeast}`;
