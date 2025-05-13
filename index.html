@@ -13,6 +13,7 @@
     <p>This calculator can help you determine what final exam score you will need in order to pass your course.</p>
     <div id="calcContainer">
         <div id="inputs">
+            <div><lable>Target Grade: </lable><input id="targetGrade" class="gradeInput" type="number" min="0" max="110" value="60"/><span>%</span></div>
             <div><lable>Quarter Grade #1: </lable><input id="Q1Grade" class="gradeInput" type="number" min="0" max="110"/><span>%</span></div>
             <div><lable>Quarter Grade #2: </lable><input id="Q2Grade" class="gradeInput" type="number" min="0" max="110"/><span>%</span></div>
             <div><lable>Exam Grade: </lable><input id="examGrade" class="gradeInput" type="number" min="0" max="110"/><span>%</span></div>
@@ -21,7 +22,7 @@
         <div id="output">
             <div id="warning"><p class="warnText">Please check your grade inputs.</p>
             <p class="warnText">All grades should be between 0 and 100.</p></div>
-            <div id="danger"><p id="dangerZone">You need to score at least a <span id="scoreAtLeast"></span>% on your final in order to pass the class.</p></div>
+            <div id="danger"><p id="dangerZone">You need to score at least a <span id="scoreAtLeast"></span>% on your final in order to meet your target grade of <span id='targetOutput'></span>%.</p></div>
             <h2>Semester Grade: <span id="semesterGrade">100</span>%</h2>
         </div>
     </div>

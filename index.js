@@ -7,11 +7,13 @@ const warning = document.getElementById("warning");
 const dZ = document.getElementById("dangerZone");
 const sAL = document.getElementById("scoreAtLeast");
 const danger = document.getElementById("danger");
+const target = document.getElementById("targetGrade");
+const targetOutput = document.getElementById("targetOutput");
 
 calculateBtn.addEventListener("click", calculate);
 
 function calculate() {
-    if(Q1.value > 110 || Q2.value > 110 || E.value > 110){
+    if(Q1.value > 110 || Q2.value > 110 || E.value > 110 || target.value > 110){
         warning.style.display = 'block';
         warning.style.height = 'auto';
     }
@@ -22,8 +24,8 @@ function calculate() {
         S.textContent = `${result}`;
     }
 
-    if((Q1.value * 0.45) + (Q2.value * 0.45) <= 60){
-        let scoreAtLeast = Math.floor((60-(Q1.value * 0.45) - (Q2.value * 0.45))/.10);
+    if((Q1.value * 0.45) + (Q2.value * 0.45) <= target.value){
+        let scoreAtLeast = Math.floor((target.value-(Q1.value * 0.45) - (Q2.value * 0.45))/.10);
         danger.style.display = 'block';
         danger.style.height = 'auto';
         console.log(scoreAtLeast);
@@ -31,6 +33,7 @@ function calculate() {
             scoreAtLeast++;
         }
         sAL.textContent = `${scoreAtLeast}`;
+        targetOutput.textContent = `${target.value}`
     }
     else{
         danger.style.display = 'none';
