@@ -18,6 +18,10 @@ body{
     background-color: var(--c2);
 }
 
+body > p{
+    color: var(--c3);
+}
+
 #calcContainer{
     border: var(--c6), 3px, solid;
     border-radius: 15px;
