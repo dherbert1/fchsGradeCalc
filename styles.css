@@ -100,4 +100,5 @@ body > p, body > h1, body > h3{
 .percentage{
     width: auto;
     margin-right: 25%;
+    text-align: right;
 }
