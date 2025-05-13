@@ -10,6 +10,7 @@ const danger = document.getElementById("danger");
 const target = document.getElementById("targetGrade");
 const targetOutput = document.getElementById("targetOutput");
 const sGradeOutput = document.getElementById("sGradeOutput");
+const w2g = document.getElementById("wayToGo");
 
 calculateBtn.addEventListener("click", calculate);
 
@@ -33,6 +34,8 @@ function calculate() {
         let scoreAtLeast = Math.floor((target.value-(Q1.value * 0.45) - (Q2.value * 0.45))/.10);
         danger.style.display = 'block';
         danger.style.height = 'auto';
+        w2g.style.display = 'none';
+        w2g.style.height = '0';
         console.log(scoreAtLeast);
         if((Q1.value * 0.45) + (Q2.value * 0.45) + (scoreAtLeast * 0.1) < 60){
             scoreAtLeast++;
@@ -43,6 +46,8 @@ function calculate() {
     else{
         danger.style.display = 'none';
         danger.style.height = '0';
+        w2g.style.display = 'block';
+        w2g.style.height = 'auto';
     }
     
 }

@@ -66,6 +66,15 @@ body > p, body > h1, body > h3{
     margin: 20px auto;
 }
 
+#wayToGo{
+    display: none;
+    max-width: 80%;
+    border: var(--c6) 5px solid;
+    border-radius: 10px;
+    background-color: var(--c4);
+    margin: 20px auto;
+}
+
 #sGradeOutput{
     display: none;
 }
@@ -94,3 +103,4 @@ body > p, body > h1, body > h3{
 .warnText, #dangerZone{
     color: var(--c7);
 }
+
