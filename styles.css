@@ -18,7 +18,7 @@ body{
     background-color: var(--c2);
 }
 
-body > p{
+body > p, body > h1, body > h3{
     color: var(--c3);
 }
 
