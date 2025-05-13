@@ -9,10 +9,15 @@ const sAL = document.getElementById("scoreAtLeast");
 const danger = document.getElementById("danger");
 const target = document.getElementById("targetGrade");
 const targetOutput = document.getElementById("targetOutput");
+const sGradeOutput = document.getElementById("sGradeOutput");
 
 calculateBtn.addEventListener("click", calculate);
 
 function calculate() {
+    if(E.value > 0){
+        sGradeOutput.style.display = 'block';
+    }
+
     if(Q1.value > 110 || Q2.value > 110 || E.value > 110 || target.value > 110){
         warning.style.display = 'block';
         warning.style.height = 'auto';

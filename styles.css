@@ -66,6 +66,10 @@ body > p, body > h1, body > h3{
     margin: 20px auto;
 }
 
+#sGradeOutput{
+    display: none;
+}
+
 #calculate{
     padding: 10px;
     margin: 10px;
