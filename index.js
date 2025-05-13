@@ -29,9 +29,7 @@ function calculate() {
         console.log(scoreAtLeast);
         if((Q1.value * 0.45) + (Q2.value * 0.45) + (scoreAtLeast * 0.1) < 60){
             scoreAtLeast++;
-            console.log(scoreAtLeast);
         }
-        console.log(scoreAtLeast);
         sAL.textContent = `${scoreAtLeast}`;
     }
     else{
