@@ -26,6 +26,9 @@ function calculate() {
         const scoreAtLeast = Math.floor((60-(Q1.value * 0.45) - (Q2.value * 0.45))/.10);
         danger.style.display = 'block';
         danger.style.height = 'auto';
+        if((Q1.value * 0.45) + (Q2.value * 0.45) + (scoreAtLeast * 0.1) < 60){
+            scoreAtLeast++;
+        }
         sAL.textContent = `${scoreAtLeast}`;
     }
     else{
