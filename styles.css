@@ -41,6 +41,15 @@ body{
     margin: 20 20;
 }
 
+#danger{
+    display: none;
+    max-width: 80%;
+    border: black 5px solid;
+    border-radius: 10px;
+    background-color: tomato;
+    margin: 20 20;
+}
+
 #calculate{
     padding: 10px;
     margin: 10px;

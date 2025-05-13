@@ -28,5 +28,9 @@ function calculate() {
         danger.style.height = 'auto';
         sAL.textContent = `$scoreAtLeast`;
     }
+    else{
+        danger.style.display = 'none';
+        danger.style.height = '0';
+    }
     
 }
