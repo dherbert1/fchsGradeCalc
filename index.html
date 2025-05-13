@@ -10,7 +10,7 @@
 <body>
     <h1>Semester Grade Calculator</h1>
     <h3>Find out your grade in a flash!</h3>
-    <p>FCHS uses a 45%-45%-10% grading scale. Type in your grade and this calculator can help you determine what you need in order to get to your goal.</p>
+    <p>FCHS uses a 45%/45%/10% grading scale. Type in your grade and this calculator can help you determine what you need in order to get to your goal.</p>
     <div id="calcContainer">
         <div id="inputs">
             <div><lable>Quarter Grade #1:</lable><input id="Q1Grade" class="gradeInput" type="number" min="0" max="110"/><span>%</span></div>
@@ -21,6 +21,7 @@
         <div id="output">
             <div id="warning"><p class="warnText">Please check your grade inputs.</p>
             <p class="warnText">All grades should be between 0 and 100.</p></div>
+            <div id="danger"><p id="dangerZone">You need to score at least a <span id="scoreAtLeast"></span>% on your final in order to pass the class.</p></div>
             <h2>Semester Grade: <span id="semesterGrade">100</span>%</h2>
         </div>
     </div>
