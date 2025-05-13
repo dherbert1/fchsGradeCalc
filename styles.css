@@ -41,6 +41,7 @@ body > p, body > h1, body > h3{
     margin-bottom: 5px;
     border-color: var(--c6);
     border-radius: 2px;
+    margin-right: 25%;
 }
 
 #output{
