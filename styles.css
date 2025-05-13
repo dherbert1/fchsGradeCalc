@@ -18,8 +18,6 @@
 
 body{
     background-color: var(--c2);
-    border: var(--c1), solid, 4px;
-    border-radius: 15px;
 }
 
 body > p, body > h1, body > h3{
