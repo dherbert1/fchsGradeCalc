@@ -73,6 +73,11 @@ body > p, body > h1, body > h3{
 }
 
 #info{
+    font-size:medium;
+    font-style: bold;
+    max-width: 400px;
+}
+#info2{
     font-size: small;
     font-style: italic;
     max-width: 400px;
