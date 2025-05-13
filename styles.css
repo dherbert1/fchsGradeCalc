@@ -38,7 +38,7 @@ body{
     border: black 5px solid;
     border-radius: 10px;
     background-color: tomato;
-    margin: 20px;
+    margin: 20px auto;
     
 }
 
@@ -48,7 +48,7 @@ body{
     border: black 5px solid;
     border-radius: 10px;
     background-color: rgba(244, 255, 93, 0.758);
-    margin: 20px;
+    margin: 20px auto;
 }
 
 #calculate{
