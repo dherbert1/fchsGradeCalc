@@ -5,6 +5,8 @@
     --c4: #99A29B;
     --c5: #C3423F;
     --c6: #26292C;
+    --c7: #F5F5F5;
+
 }
 
 *{
@@ -19,7 +21,7 @@ body{
 }
 
 body > p, body > h1, body > h3{
-    color: var(--c3);
+    color: var(--c7);
 }
 
 #calcContainer{
@@ -37,7 +39,7 @@ body > p, body > h1, body > h3{
     height: 15px;
     margin-top: 10px;
     margin-bottom: 5px;
-    border: var(--c6);
+    border-color: var(--c6);
     border-radius: 2px;
 }
 
