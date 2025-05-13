@@ -18,7 +18,7 @@ function calculate() {
     else{
         warning.style.display = 'none';
         warning.style.height = '0';
-        const result = Math.round((Q1.value * 0.45) + (Q2.value * 0.45) + (E.value * 0.1));
+        const result = Math.floor((Q1.value * 0.45) + (Q2.value * 0.45) + (E.value * 0.1));
         S.textContent = `${result}`;
     }
 
