@@ -48,31 +48,24 @@ body > p, body > h1, body > h3{
 }
 
 #warning{
-    display: none;
-    max-width: 80%;
-    border: var(--c6) 5px solid;
-    border-radius: 10px;
     background-color: var(--c5);
-    margin: 20px auto;
-    
 }
 
 #danger{
-    display: none;
-    max-width: 80%;
-    border: var(--c6) 5px solid;
-    border-radius: 10px;
     background-color: var(--c4);
-    margin: 20px auto;
 }
 
 #wayToGo{
+    background-color: var(--c4);
+}
+
+#wayToGo, #danger, #warning{
     display: none;
     max-width: 80%;
     border: var(--c6) 5px solid;
     border-radius: 10px;
-    background-color: var(--c4);
     margin: 20px auto;
+    padding: 5px;
 }
 
 #sGradeOutput{
