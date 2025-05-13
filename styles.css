@@ -60,4 +60,6 @@ body{
 #info{
     font-size: small;
     font-style: italic;
+    max-width: 400px;
 }
+
